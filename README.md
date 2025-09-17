@@ -4,10 +4,14 @@
 
 本研究的训练集和测试集以及模型相关权重（300轮以内的最佳权重）可以在该链接下载：https://drive.google.com/drive/folders/1scOMQk3PPxkKcLRNLMJrHR_1NpZOsvRV?usp=sharing
 
+你可以使用Sample-dataset.h5中的简单数据跑通代码
+
 ## 		2.文件相关说明：
 
 以下是code文件夹目录下文件和说明：
 
+	│  How to use h5 files.ipynb  （h5文件使用方法）
+	|  Sample-dataset.h5（样例数据）
 	│  The random numbers partition Train and Val.ipynb（从训练集划分验证集）
 	│  Train.txt（划分出的训练集）
 	│  Val.txt（划分出的验证集）
@@ -255,7 +259,7 @@ zlib                      1.2.13               h8cc25b3_0
 zstd                      1.5.5                hd43e919_0
 ```
 
-Linux：其中SegNet-VGG.ipynb（SegNet-VGG模型代码）和SegNet.ipynb（SegNet模型代码）的linux环境，相关python包为：
+Linux：其中SegNet-Simple.ipynb和SegNet.ipynb为linux环境，相关python包为：
 
 ```
 (base) wujieyu@lthpc:~$ conda activate tf
@@ -549,10 +553,14 @@ zstd                      1.5.6                hc292b87_0
 
 The training and test sets for this study and the weights associated with the model (the best weights within 300 rounds) can be downloaded at:https://drive.google.com/drive/folders/1scOMQk3PPxkKcLRNLMJrHR_1NpZOsvRV?usp=sharing
 
+You can run the code using the simple data in Sample-dataset.h5
+
 ## 2.Notes on the file:
 
 Here are the files and instructions in the code folder:
 
+	│  How to use h5 files.ipynb  （The usage method of h5 files）
+	|  Sample-dataset.h5（Sample data）
 	│  The random numbers partition Train and Val.ipynb（Split the validation set from the training set）
 	│  Train.txt（The split training set）
 	│  Val.txt（The split validation set）
@@ -799,7 +807,7 @@ zlib                      1.2.13               h8cc25b3_0
 zstd                      1.5.5                hd43e919_0
 ```
 
-Linux: segnet-vgg.ipynb (SegNet-Vgg model code) and segnet.ipynb (SegNet model code) linux environment, related python packages are:
+Linux: segnet-vgg.ipynb and segnet.ipynb is linux environment, related python packages are:
 
 ```
 (base) wujieyu@lthpc:~$ conda activate tf
